@@ -1,0 +1,32 @@
+.infoBox {
+    flex:1;
+    cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.infoBox__cases {
+    color:#7dd71d;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 1rem !important;
+}
+
+.infoBox--selected {
+    border-top: 10px solid #7dd71d;
+}
+.infoBox--red {
+    border-top: 10px solid #CC1034 ;
+}
+.infoBox__case--red {
+    color:#CC1034 ;
+}

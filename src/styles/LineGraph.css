@@ -1,0 +1,11 @@
+.graph__div {
+    padding: 1rem;
+}
+
+
+@media (min-width: 990px) {
+    .graph__div {
+    padding: 1rem;
+    max-width: 400px;
+}
+}
